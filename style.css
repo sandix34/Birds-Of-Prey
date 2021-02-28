@@ -1,8 +1,31 @@
+body h1,
+body h2,
+body h3 {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+body p {
+  font-family: "Maven Pro", sans-serif;
+}
+
 .logo {
+  filter: invert(21%) sepia(9%) saturate(3559%) hue-rotate(336deg) brightness(100%) contrast(80%);
   height: auto;
   width: auto;
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.brand {
+  color: #492d1d;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(119,71,46)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #77472e;
 }
 
 .background-image {
@@ -12,7 +35,13 @@
   background-position: 80%;
 }
 
-ul {
-  list-style: none;
+.field-item {
+  color: white;
+  opacity: 0.8;
+  margin-left: 2rem;
+  border-radius: 30px;
 }
-/*# sourceMappingURL=style.css.map */
+
+footer {
+  background-color: #492d1d;
+}/*# sourceMappingURL=style.css.map */

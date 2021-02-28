@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Bootstrap icons -->
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Maven+Pro&display=swap" rel="stylesheet">
+  <!--CSS -->
   <link rel="stylesheet" href="./style.css">
   <title>Birds Of Prey</title>
 </head>
@@ -16,19 +22,19 @@
       <header class="row">
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          
+          <!-- navbar toggler -->
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="custom-toggler navbar-toggler-icon"></span>
+          </button>
 
           <!-- brand -->
-          <div class="container-fluid">
-            <a class="navbar-brand  col-6 d-flex flex-column justify-content-start" href="#">
+          <div class="container-fluid col-6 d-flex justify-content-center">
+            <a class="navbar-brand d-flex flex-column" href="#">
               <div><img class="logo" src="img/falcon.png" alt="logo"></div>
-              <p>Rapaces de France</p>
+              <p class="fs-2 brand">Rapaces de France</p>
             </a>
-
-            <!-- navbar toggler -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
             <!-- Links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -43,35 +49,54 @@
             </div>
           </div>
         </nav>
-      <header/>
+      </header>
 
       <!-- main -->
       <main class="row">
-          <section class="background-image d-flex justify-content-center">
-            <div class="align-self-center col-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ad, laboriosam maxime iure eligendi accusamus dolor aliquid laudantium sapiente, reiciendis amet! Libero asperiores delectus quod unde facere cumque quis provident. </div>
+          <section class="background-image d-flex">
+            <div class="align-self-center col-6">
+              <p class="field-item text-center fw-bold bg-dark p-1" >Association d'ornithologues qui se consacrent à la sauvegarde des oiseaux de proies.</p>
+            </div>
           </section>
           <section>
-            <h1>Des actions de terrain en faveur des rapaces</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellendus soluta ab maiores ducimus. Repellendus, vitae temporibus explicabo soluta nobis, impedit repudiandae doloribus incidunt quam, quas nihil facere similique nemo.</p>
+            <h1 class="p-2">Des actions de terrain en faveur des rapaces</h1>
+            <p class="p-2 text-start" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellendus soluta ab maiores ducimus. Repellendus, vitae temporibus explicabo soluta nobis, impedit repudiandae doloribus incidunt quam, quas nihil facere similique nemo.</p>
+            <p class="p-2 text-start" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad maiores quas similique. Perferendis assumenda impedit libero veniam sapiente eum cumque culpa, nulla architecto, cum minus repudiandae nam, vitae magni. Doloremque.</p>
           </section>
       </main>
 
       <!-- footer -->
       <footer class="row">
-        <div class="p-3">
-          <button>Restez informé en souscrivant à notre newsletter</button>
+        <div class="p-3 d-flex justify-content-center">
+          <a class="btn btn-outline-light" href="#" role="button">souscrire à notre newsletter</a>
         </div>
-        <div>
-          <p>Nous suivre</p>
-          <ul class="d-flex flex-row">
-            <li class="p-1"><a href="#">Twitter</a></li>
-            <li class="p-1"><a href="#">Linkedin</a></li>
-            <li class="p-1"><a href="#">Instagram</a></li>
-          </ul>
-        </div>
-          <div>
-            <a href="#">Contact</a>
+        <div class="d-flex flex-column justify-content-center">
+          <div class="d-flex justify-content-center">
+            <p class="text-white" >Nous suivre</p>
           </div>
+          <div class="d-flex justify-content-center" >
+            <ul class="d-flex flex-row list-unstyled">
+              <li class="p-2">
+                <a href="#">
+                  <i class="bi-linkedin" style="font-size: 2rem; color: white;"></i>
+                </a>
+              </li>
+              <li class="p-2">
+                <a href="#">
+                  <i class="bi-instagram" style="font-size: 2rem; color: white;"></i>
+                </a>
+              </li>
+              <li class="p-2">
+                <a href="#">
+                  <i class="bi-twitter" style="font-size: 2rem; color: white;"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="mb-4 d-flex justify-content-center">
+          <a class="text-white" href="#">Contact</a>
+        </div>
       </footer>      
     </div>
     
