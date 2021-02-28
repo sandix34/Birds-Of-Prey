@@ -30,8 +30,8 @@
           </button>
 
           <!-- brand -->
-          <div class="container-fluid col-6 d-flex justify-content-center">
-            <a class="navbar-brand d-flex flex-column" href="#">
+          <div class="container-fluid col-6 d-flex justify-content-center col-lg-10">
+            <a class="navbar-brand d-flex flex-column col-lg-10" href="#">
               <div><img class="logo" src="img/falcon.png" alt="logo"></div>
               <p class="fs-2 brand">Rapaces de France</p>
             </a>
@@ -40,10 +40,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                  <a class="nav-link active fs-4" aria-current="page" href="#">Accueil</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Evènements</a>
+                  <a class="nav-link fs-4" href="#">Evènements</a>
                 </li>
               </ul>
             </div>
@@ -53,40 +53,50 @@
 
       <!-- main -->
       <main class="row">
-          <section class="background-image d-flex">
-            <div class="align-self-center col-6">
-              <p class="field-item text-center fw-bold bg-dark p-1" >Association d'ornithologues qui se consacrent à la sauvegarde des oiseaux de proies.</p>
+          <section class="background-image d-flex d-md-inline-flex justify-content-md-center">
+            <div class="test align-self-center col-7 col-md-4">
+              <p class="field-item text-center fs-6 fw-bold p-1 ">Association d'ornithologues qui se consacrent à la sauvegarde des oiseaux de proies.</>
             </div>
           </section>
           <section>
-            <h1 class="p-2">Des actions de terrain en faveur des rapaces</h1>
-            <p class="p-2 text-start" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellendus soluta ab maiores ducimus. Repellendus, vitae temporibus explicabo soluta nobis, impedit repudiandae doloribus incidunt quam, quas nihil facere similique nemo.</p>
-            <p class="p-2 text-start" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad maiores quas similique. Perferendis assumenda impedit libero veniam sapiente eum cumque culpa, nulla architecto, cum minus repudiandae nam, vitae magni. Doloremque.</p>
+            <h1 class="p-2 fw-bold">Des actions de terrain en faveur des rapaces</h1>
+            <h2 class="p-2">Actions nationales liées à une espèce</h2>
+            <p class="p-2 text-start fs-5" >
+              Pour protéger les rapaces, notre association met en place différents programmes nationaux, destinés en priorité aux espèces les plus menacées. Ses différents rôles sont : le suivi sur le terrain des espèces concernées, la mise en œuvre de mesures de conservation des rapaces et de leurs habitats, la coordination entre les différents partenaires, la sensibilisation du grand public, la diffusion d’informations, etc. Ils s’organisent autour de :
+            </p>
+            <h3 class="ps-4 fw-bold">La surveillance des aires de rapaces menacés</h3>
+            <p class="p-2 text-start fs-5" >
+              Rapaces de France s’engage également, depuis plus de 20 ans, dans la sauvegarde des oiseaux de proie en développant des activités de surveillance des aires. Ainsi, en 2009, plus de 3 000 bénévoles ont participé à ces activités de terrain, soit plus de 14 000 journées de surveillance dans 89 départements. Cette action est plus que jamais primordiale car elle contribue à préserver des espèces en évitant les dérangements volontaires (vol d’œufs ou de poussins) et involontaires de plus en plus fréquent (dus par exemple à certains loisirs de pleine nature.
+            </p>
+            <h3 class="ps-4 fw-bold">Les plans nationaux d’action du ministère</h3>
+            <p class="p-2 fs-5">
+              En partenariat avec le ministère chargé de l’environnement, Rapaces de France est coordinateur et/ou acteur de 8 plans nationaux d’action qui concernent : le vautour moine, le vautour percnoptère, le gypaète barbu, le milan royal, le balbuzard pêcheur, l’aigle de Bonelli, le faucon crécerellette, la chevêche d’Athéna.
+            </p>
           </section>
       </main>
 
       <!-- footer -->
-      <footer class="row">
-        <div class="p-3 d-flex justify-content-center">
+      <footer class="d-lg-flex flex-lg-row justify-content-lg-around">
+        <div class="p-3 d-flex justify-content-center align-items-lg-center">
           <a class="btn btn-outline-light" href="#" role="button">souscrire à notre newsletter</a>
         </div>
-        <div class="d-flex flex-column justify-content-center">
+        <div class="d-flex flex-column justify-content-center align-items-lg-center mt-lg-3">
           <div class="d-flex justify-content-center">
             <p class="text-white" >Nous suivre</p>
           </div>
           <div class="d-flex justify-content-center" >
             <ul class="d-flex flex-row list-unstyled">
-              <li class="p-2">
+              <li class="ps-2">
                 <a href="#">
                   <i class="bi-linkedin" style="font-size: 2rem; color: white;"></i>
                 </a>
               </li>
-              <li class="p-2">
+              <li class="ps-2">
                 <a href="#">
                   <i class="bi-instagram" style="font-size: 2rem; color: white;"></i>
                 </a>
               </li>
-              <li class="p-2">
+              <li class="ps-2">
                 <a href="#">
                   <i class="bi-twitter" style="font-size: 2rem; color: white;"></i>
                 </a>
@@ -94,7 +104,7 @@
             </ul>
           </div>
         </div>
-        <div class="mb-4 d-flex justify-content-center">
+        <div class="pb-4 d-flex justify-content-center align-items-lg-center">
           <a class="text-white" href="#">Contact</a>
         </div>
       </footer>      
