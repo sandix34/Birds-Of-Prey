@@ -1,0 +1,81 @@
+// Variables
+$title-font: "Alegreya Sans", sans-serif;
+$text-font: "Maven Pro", sans-serif;
+
+// convert from black to hex color
+$logo-color: invert(21%) sepia(9%) saturate(3559%) hue-rotate(336deg)
+  brightness(100%) contrast(80%);
+
+// colors
+$primary-color: #492d1d;
+$secondary-color: #77472e;
+
+// general
+body {
+  h1,
+  h2,
+  h3 {
+    font-family: $title-font;
+  }
+
+  p {
+    font-family: $text-font;
+  }
+}
+
+// Header
+.logo {
+  filter: $logo-color;
+  height: auto;
+  width: auto;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.brand {
+  color: $primary-color;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(119,71,46)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: $secondary-color;
+}
+
+// Main
+.background-image {
+  background-image: url("./img/owl.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: 80%;
+}
+
+
+.field-item {
+  color: white;
+  background-color: #606f49;
+  opacity: 0.8;
+  margin-left: 1rem;
+  border-radius: 30px;
+  letter-spacing: .2rem;
+  box-shadow: 10px 5px 5px black;
+}
+
+// Footer
+footer {
+  background-color: $primary-color;
+}
+
+// breakpoint
+@media (min-width: 992px) {
+  body {
+    width: 70%;
+    margin: auto;
+  }
+
+  .background-image {
+    height: 500px;
+  }
+}
