@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cf0494d8-704f-4aab-a7d6-18bf1a899085/deploy-status)](https://app.netlify.com/sites/rapaces-de-france/deploys)
 ## Réalisation d'une interface utilisateur web statique et adaptable.
 
 ---
