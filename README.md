@@ -3,7 +3,16 @@
 
 ---
 
-![deskAcc](https://user-images.githubusercontent.com/44428775/109654549-96af1480-7b62-11eb-91c8-5d58c5ed47ba.png)
+### Version Desktop:
+
+![Desktop_birds1](https://user-images.githubusercontent.com/44428775/147109888-4569b13c-59de-49ac-bf88-17b29a6b57ae.png)
+![Desktop_birds2](https://user-images.githubusercontent.com/44428775/147109908-e897465e-96f4-4f32-9d18-5d774fd48c1c.png)
+
+## Version mobile:
+
+Home page            |  Events page
+:-------------------------:|:-------------------------:
+![Mobile_birds1](https://user-images.githubusercontent.com/44428775/147110072-46011a96-d021-4999-b7bc-740fdddcebbc.png)  |  ![Mobile_birds2](https://user-images.githubusercontent.com/44428775/147110080-74e300a6-7845-4661-9aaa-84dc4a5ed3c1.png)
 
 ### Moyens utilisés: 
 
